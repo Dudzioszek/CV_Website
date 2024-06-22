@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}{{ gettext('My Personal Website') }}{% endblock %}
+
+{% block content %}
+<section class="about-me">
+    <div class="about-me-text">
+        <h2>{{ gettext('About Me') }}</h2>
+        <p>{{ gettext("I am a passionate technologist and programmer. I specialize in creating modern websites and applications. Currently, I am studying Applied Computer Science at the Warsaw University of Technology. I have experience working as a programmer at Zending.ai, where I designed and implemented backend logic and managed databases. I also work part-time at Testsolution Sp. Z O.O., dealing with the servicing and sale of laboratory equipment.") }}</p>
+        <p>{{ gettext("My skills include knowledge of programming languages such as C, C++, Java, and Python, as well as working in Azure DevOps and Scrum. I also have skills in computer repair and the use of graphic programs (Photoshop) and Microsoft Office.") }}</p>
+        <p>{{ gettext("In my free time, I am interested in European history, cycling, technological innovations, computer games, and volleyball.") }}</p>
+    </div>
+    <div class="about-me-image">
+        <img src="{{ url_for('media_files', filename='pic.png') }}" alt="Moje zdjęcie">
+    </div>
+</section>
+<section>
+    <h2>{{ gettext('Projects') }}</h2>
+    <p>{{ gettext('Check out my most important projects:') }}</p>
+    <a href="{{ url_for('projects') }}" class="button">{{ gettext('View my key projects:') }}</a>
+</section>
+<section>
+    <h2>{{ gettext('CV') }}</h2>
+    <p>{{ gettext('Download my CV to learn more about my professional experience and skills.') }}</p>
+    <a href="{{ url_for('media_files', filename='Dutkiewicz_CV_2024_English.pdf') }}" class="button">{{ gettext('Download CV') }}</a>
+</section>
+{% endblock %}

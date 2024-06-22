@@ -1,0 +1,143 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-06-22 10:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/base.html:28
+msgid "All rights reserved."
+msgstr ""
+
+#: templates/base.html:30
+msgid "Email"
+msgstr ""
+
+#: templates/base.html:31
+msgid "GitHub"
+msgstr ""
+
+#: templates/base.html:32
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/index.html:3
+msgid "My Personal Website"
+msgstr ""
+
+#: templates/index.html:8
+msgid "About Me"
+msgstr ""
+
+#: templates/index.html:9
+msgid ""
+"I am a passionate technologist and programmer. I specialize in creating "
+"modern websites and applications. Currently, I am studying Applied "
+"Computer Science at the Warsaw University of Technology. I have "
+"experience working as a programmer at Zending.ai, where I designed and "
+"implemented backend logic and managed databases. I also work part-time at"
+" Testsolution Sp. Z O.O., dealing with the servicing and sale of "
+"laboratory equipment."
+msgstr ""
+
+#: templates/index.html:10
+msgid ""
+"My skills include knowledge of programming languages such as C, C++, "
+"Java, and Python, as well as working in Azure DevOps and Scrum. I also "
+"have skills in computer repair and the use of graphic programs "
+"(Photoshop) and Microsoft Office."
+msgstr ""
+
+#: templates/index.html:11
+msgid ""
+"In my free time, I am interested in European history, cycling, "
+"technological innovations, computer games, and volleyball."
+msgstr ""
+
+#: templates/index.html:18
+msgid "Projects"
+msgstr ""
+
+#: templates/index.html:19
+msgid "Check out my most important projects:"
+msgstr ""
+
+#: templates/index.html:20
+msgid "View my key projects:"
+msgstr ""
+
+#: templates/index.html:23
+msgid "CV"
+msgstr ""
+
+#: templates/index.html:24
+msgid "Download my CV to learn more about my professional experience and skills."
+msgstr ""
+
+#: templates/index.html:25
+msgid "Download CV"
+msgstr ""
+
+#: templates/projects.html:3
+msgid "My Projects"
+msgstr ""
+
+#: templates/projects.html:7
+msgid "Project 1: Database Management System"
+msgstr ""
+
+#: templates/projects.html:8
+msgid ""
+"Description: A database management system for a small business. The "
+"system allows managing customer data, orders, and products."
+msgstr ""
+
+#: templates/projects.html:9
+msgid "Technologies: Python, Django, PostgreSQL"
+msgstr ""
+
+#: templates/projects.html:10 templates/projects.html:16
+#: templates/projects.html:22
+msgid "GitHub Repository"
+msgstr ""
+
+#: templates/projects.html:13
+msgid "Project 2: E-commerce Website"
+msgstr ""
+
+#: templates/projects.html:14
+msgid ""
+"Description: A comprehensive e-commerce website with a shopping cart, "
+"online payments, and product management system."
+msgstr ""
+
+#: templates/projects.html:15
+msgid "Technologies: JavaScript, React, Node.js, MongoDB"
+msgstr ""
+
+#: templates/projects.html:19
+msgid "Project 3: Activity Tracking Mobile App"
+msgstr ""
+
+#: templates/projects.html:20
+msgid ""
+"Description: A mobile application for tracking physical activities such "
+"as running, cycling, etc."
+msgstr ""
+
+#: templates/projects.html:21
+msgid "Technologies: Java, Android Studio, Firebase"
+msgstr ""
+

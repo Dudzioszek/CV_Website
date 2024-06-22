@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}{{ gettext('My Projects') }}{% endblock %}
+
+{% block content %}
+<section class="project">
+    <h2>{{ gettext('Project 1: Database Management System') }}</h2>
+    <p>{{ gettext('Description: A database management system for a small business. The system allows managing customer data, orders, and products.') }}</p>
+    <p>{{ gettext('Technologies: Python, Django, PostgreSQL') }}</p>
+    <a href="https://github.com/Dudzioszek/projekt1" target="_blank" class="button">{{ gettext('GitHub Repository') }}</a>
+</section>
+<section class="project">
+    <h2>{{ gettext('Project 2: E-commerce Website') }}</h2>
+    <p>{{ gettext('Description: A comprehensive e-commerce website with a shopping cart, online payments, and product management system.') }}</p>
+    <p>{{ gettext('Technologies: JavaScript, React, Node.js, MongoDB') }}</p>
+    <a href="https://github.com/Dudzioszek/projekt2" target="_blank" class="button">{{ gettext('GitHub Repository') }}</a>
+</section>
+<section class="project">
+    <h2>{{ gettext('Project 3: Activity Tracking Mobile App') }}</h2>
+    <p>{{ gettext('Description: A mobile application for tracking physical activities such as running, cycling, etc.') }}</p>
+    <p>{{ gettext('Technologies: Java, Android Studio, Firebase') }}</p>
+    <a href="https://github.com/Dudzioszek/projekt3" target="_blank" class="button">{{ gettext('GitHub Repository') }}</a>
+</section>
+{% endblock %}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>{{ gettext('Stanisław Dutkiewicz') }}</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('set_language', language='pl') }}">PL</a></li>
+                    <li><a href="{{ url_for('set_language', language='en') }}">EN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Stanisław Dutkiewicz. {{ gettext('All rights reserved.') }}</p>
+            <p>
+                <a href="mailto:stan.dutkiewicz@hotmail.com">{{ gettext('Email') }}</a> | 
+                <a href="https://github.com/Dudzioszek" target="_blank">{{ gettext('GitHub') }}</a> | 
+                <a href="https://www.linkedin.com/in/twojlinkedin" target="_blank">{{ gettext('LinkedIn') }}</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
